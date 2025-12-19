@@ -1,7 +1,7 @@
 # HPML Project: An Analysis of Radial Attention
 
 ## Team Information
-- **Team Name**: The Radials
+- **Team Name**: Radial Attention
 - **Members**:
   - Nandini Prasad (nnp2119)
   - Hanz Tan (yt2924)
