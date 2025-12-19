@@ -52,7 +52,7 @@ Benchmarking was conducted on a single NVIDIA GeForce RTX 5090. The comparison i
 # Inside the container
 bash container_setup.sh
 ```
-### Quickstart
+### B. Quickstart
 
 ```
 # Standard lengths
@@ -64,7 +64,17 @@ bash scripts/wan_t2v_inference_1_3B_long.sh
 
 
 
-### Profling
+### C.Evaluation and Profling
 
+
+#### Nsight compute Profiling
 Run the command inside the script of your choosing with ncu.
+
+#### Comprehensive Evaluation
+Run the following for comprehensive evaluation
+
+```
+python3 Generate_metrics.py
+python3 plot_graphs.py
+```
 
